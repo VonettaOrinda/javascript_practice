@@ -1,8 +1,7 @@
 
 
-let person = {
-    name:'von',
-    age:34,
-};
-
-console.log(person);
+function greet(name) {
+    console.log('Hello ' + name);
+}
+greet('vonette ');
+   
